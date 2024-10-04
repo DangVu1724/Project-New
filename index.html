@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee Food</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/Logo-ShopeefoodVN.png">
+    <link rel="stylesheet" href="./assets/icon/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/responsive-mainpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&subset=vietnamese">
+</head>
+<body>
+    <div id="app">
+        <div class="page">
+            <header class="main-header">
+                <div class="container-header">
+                    <div class="header-content">
+                        <div class="logo">
+                            <a href="index.html"><img src="./assets/img/shopeefoodvn.png" alt=""></a>
+                        </div>
+                        <div class="drop-down">
+                            <p class="select-place">Hà Nội<i class="ti-angle-down"></i></p>
+                            <div class="dropdown-menu">
+                                <div class="place-items">
+                                    <p>TP.HCM</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Đà Nẵng</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Cần Thơ</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Hải Phòng</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Huế</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Vũng Tàu</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Cà Mau</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Cao Bằng</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                                <div class="place-items">
+                                    <p>Hải Dương</p>
+                                    <p>92046 địa điểm</p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav">
+                            <li class="li"><a href="#" data-category="food">Đồ ăn</a></li>
+                            <li class="li"><a href="#" data-category="grocery">Thực phẩm</a></li>
+                            <li class="li"><a href="#" data-category="alcohol">Rượu bia</a></li>
+                            <li class="li"><a href="#" data-category="flowers">Hoa</a></li>
+                            <li class="li"><a href="#" data-category="supermarket">Siêu thị</a></li>
+                            <li class="li"><a href="#" data-category="medicine">Thuốc</a></li>
+                            <li class="li"><a href="#" data-category="pets">Thú cưng</a></li>
+                        </ul>
+                        <div class="search">
+                            <i class="ti-search js-search"></i>
+                        </div>
+                        <div class="login">
+                            <a href="login.html"><button type="button">Đăng nhập</button></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="wall-banner">
+                    <div class="container-content">                     
+                        <div class="side-search">
+                            <div>
+                                <h1>Đặt Đồ ăn,giao hàng từ 20'...</h1>
+                                <p>Có 45739 Địa Điểm Ở <span class="city">Hà Nội</span> Từ 00:00 - 23:59</p>
+                            </div>
+                            <div class="form-search">
+                                <input type="text" placeholder="Tìm địa điểm, món ăn, địa chỉ...">
+                                <a href="#"><button><i class="ti-search"></i></button></a>
+                            </div>
+                            <div class="food-list">
+                                <ul id="category-list">
+                                    <li><a href="restaurant-list.html">All</a></li>
+                                    <li><a href="restaurant-list.html">Đồ ăn</a></li>
+                                    <li><a href="restaurant-list.html">Đồ uống</a></li>
+                                    <li><a href="restaurant-list.html">Đồ chay</a></li>
+                                    <li><a href="restaurant-list.html">Bánh kem</a></li>
+                                    <li><a href="restaurant-list.html">Tráng miệng</a></li>
+                                    <li><a href="restaurant-list.html">Homemade</a></li>
+                                    <li><a href="restaurant-list.html">Vỉa hè</a></li>
+                                    <li><a href="restaurant-list.html">Pizza/Burger</a></li>
+                                    <li><a href="restaurant-list.html">Món gà</a></li>
+                                    <li><a href="restaurant-list.html">Món lẩu</a></li>
+                                    <li><a href="restaurant-list.html">Sushi</a></li>
+                                    <li><a href="restaurant-list.html">Mì phở</a></li>
+                                    <li><a href="restaurant-list.html">Cơm hộp</a></li>
+                                </ul>
+                            </div>
+                            <div class="app-dow">
+                                <p>Sử dụng App ShopeeFood để có nhiều giảm giá <br>
+                                    và trải nghiệm tốt hơn</p>
+                                <div class="img-app">
+                                    <a href="https://itunes.apple.com/us/app/deliverynow/id1137866760" target="_blank"><img src="./assets/img/AppStore-vn.png" alt=""></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.deliverynow" target="_blank"><img src="./assets/img/PlayStore-vn.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-scroll-home">
+                    <div class="container">
+                        <div class="container-items-food">
+                            <div class="get-place js-get-place">
+                                <p>Đồ ăn <i class="ti-arrow-right"></i></p>
+                                <p>Chọn địa chỉ giao hàng</p>
+                                <p><i class="ti-angle-right"></i></p>
+                            </div>
+                            <div class="list-items-food">
+                                <div class="area-items">
+                                    <div class="title-area">
+                                        <p>Ưu đãi</p>
+                                        <a href="restaurant-list.html"><i class="ti-layout-grid2-alt"></i> Xem tất cả</a>
+                                    </div>
+                                    <div class="items-restaurant">
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu99wx8nah054@resize_ss640x400!@crop_w640_h400_cT" alt="">
+                                                    <div class="tag-like">
+                                                        <p><i class="fa fa-thumbs-up"></i> Yêu thích</p>
+                                                    </div>
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>Chè Ngon Phố - Cổ Nhuế</h4>
+                                                    <p class="addr-item">136 Ngõ 43 Cổ Nhuế, P. Cổ Nhuế 2, Bắc Từ Liêm, Hà Nội</p>
+                                                    <p class="item-promotion"><i class="ti-shopping-cart-full"></i> Giảm món</p>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                            
+                                        </div>
+                                    </div>
+                                    <button class="load-more">Xem thêm <i class="fas fa-redo"></i></button>
+                                </div>
+                                <div class="area-items collection">
+                                    <div class="title-area">
+                                        <p>Bộ sưu tập</p>
+                                        <a href="restaurant-list.html"><i class="ti-layout-grid2-alt"></i> Xem tất cả</a>
+                                    </div>
+                                    <div class="items-restaurant">
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="collection.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134512-7r98o-lwdzypq1rm57e1@resize_ss320x320!@crop_w320_h320_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <h4>ShopeeFood x MONO khao trà sữa 0Đ</h4>
+                                                    <p>200 địa điểm</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <button class="load-more-2">Xem thêm <i class="fas fa-redo"></i></button>
+                                </div>
+                                <div class="area-items diverse">
+                                    <div class="title-area">
+                                        <ul>
+                                            <li>Gần tôi</li>
+                                            <li>Bán chạy</li>
+                                            <li>Đánh giá</li>
+                                            <li>Giao nhanh</li>
+                                        </ul>
+                                        <div class="select-district">
+                                            <select name="district">
+                                                <option value="-1">Chọn quận/ huyện</option>
+                                                <option value="">Ba Đình</option>
+                                                <option value="">Cầu Giấy</option>
+                                                <option value="">Đống Đa</option>
+                                                <option value="">Hà Đông</option>
+                                                <option value="">Hai Bà Trưng</option>
+                                                <option value="">Hoàn Kiếm</option>
+                                                <option value="">Hoàng Mai</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="items-restaurant">
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        <div class="item-food">
+                                            <a href="restaurant.html" target="_blank">
+                                                <div class="img-food">
+                                                    <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu6z4tnntms64@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                                </div>
+                                                <div class="infor-item">
+                                                    <div class="title"><span><img src="./assets/img/partner2x.png" alt=""></span>The 1989 - Trà Sữa Muối Biển</div>
+                                                    <div class="place">5 địa điểm</div>
+                                                    <div class="price"><i class="ti-check-box"></i> Tối thiểu 20K <i class="ti-money"></i>Giá 21K</div>
+                                                    <div class="item-promotion"><i class="ti-shopping-cart-full"></i> TECHCOMBANK giảm 80K</div>
+                                                </div>
+                                                <p class="opentime-status"></p>
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <button class="load-more-3">Xem thêm <i class="fas fa-redo"></i></button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="des-coporation" >
+                    <div class="item-des-cor">
+                        <h4>Đơn hàng của bạn sẽ được bảo quản như thế nào?</h4>
+                        <p> ShopeeFood sẽ bảo quản đơn của bạn bằng túi & thùng để chống nắng mưa, giữ nhiệt... trên đường đi một cách tốt nhất. </p>
+                        <img src="./assets/img/Box-food-preservation-footer.png" alt="">
+                    </div>
+                    <div class="item-des-cor row-2">
+                        <h4>Ứng dụng Shopee Partner</h4>
+                        <span>
+                            <p>
+                                - <b>Ứng dụng Shopee Partner</b>
+                                là ứng dụng quản lý đơn hàng cho các nhà hàng đối tác của dịch vụ đặt món tận nơi 
+                            </p>
+                            <p>
+                                - <b>ShopeeFood.vn</b>
+                                luôn sẵn sàng hợp tác với các nhà hàng, quán ăn, cafe... để mở rộng kinh doanh cũng như gia tăng khách hàng. Hãy kết nối vào hệ thống đặt và giao hàng để giảm bớt chi phí quản lý, vận hành, marketing, công nghệ... 
+                                 <br> Đăng ký tham gia: <b><a href="#" target="_blank">tại đây</a></b>
+                            </p>
+                        </span>
+                        <img src="./assets/img/banner-phone-reg-merchant.png" alt="">
+                    </div>
+                    <div class="item-des-cor row-3">
+                        <a href="tuyendung.html""><h4><span>ShopeeFood.vn</span> Hợp tác nhân viên giao nhận - ShopeeFood Driver</h4></a>
+                        <p>Giúp bạn tăng thu nhập trong thời gian rảnh rỗi</p>
+                        <p><span>ShopeeFood</span> tìm kiếm hợp tác với các cá nhân để thực hiện việc giao hàng, chúng tôi sẽ cung cấp ứng dụng (app), 1 số dụng cụ cần thiết để bạn có thể tiếp nhận & giao hàng, kiếm thêm thu nhập
+                            Đăng ký tham gia <a href="tuyendung.html">tại đây</a> hoặc gửi Email qua <a href="#" target="_blank">tuyendung@gofast.vn</a> - hoặc gọi qua số điện thoại (028) 7109 9179.</p>
+                        <img src="./assets/img/bg-deliverynow-dat-mon-truc-tuyen-giao-hang-tan-noi.png" alt="">
+                    </div>
+                    <div class="footer-content">
+                        <p>Danh mục</p>
+                        <div class="body-footer">
+                            <ul>
+                                <li>
+                                    <a href="#">Thuốc</a>
+                                    <ul>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Hóa mỹ phẩm</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">BCS</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Thiết bị</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Thuốc tây</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Khẩu trang</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Khẩn cấp</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Đồ ăn hn</a>
+                                    <ul>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html" target="_blank">Đồ ăn HN</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sản phẩm hn</a></li>
+                                <li>
+                                    <a href="#">Hoa</a>
+                                    <ul>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Chia buồn</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Cây cảnh</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Chúc mừng</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Sinh nhật</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Tình yêu</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Thú cưng</a>
+                                    <ul>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html" target="_blank">Thú cưng</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Đặt bàn hn</a></li>
+                                <li>
+                                    <a href="#">Sản phẩm</a>
+                                    <ul>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Mỹ phẩm</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Đồ chơi</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Sữa</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Tã bỉm</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Dụng cụ</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Quần áo</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Giày dép</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Điện tử</a></li>
+                                        <li class="sub-nav-item"><a href="restaurant-list.html">Trang sức</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" target="_blank">thực phẩm Hn</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+
+            </div>
+            <footer class="footer">
+                <div class="container-footer">
+                    <div class="company">
+                        <h4>Công ty</h4>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Trung tâm Trợ giúp</a></li>
+                            <li><a href="#">Quy chế</a></li>
+                            <li><a href="#">Điều khoản sử dụng</a></li>
+                            <li><a href="#">Bảo mật thông tin</a></li>
+                            <li><a href="#">Giải quyết khiếu nại</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Hợp tác nhân viên giao nhận</a></li>
+                            <li><a href="#">Đăng ký quán</a></li>
+                            <li><a href="#">ShopeeFood Uni</a></li>
+                            <li><a href="#">Shopee Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="apps-dowload">
+                        <h4>Ứng dụng ShopeeFood</h4>
+                        <span>
+                            <a href="https://itunes.apple.com/us/app/deliverynow/id1137866760" target="_blank"><img src="./assets/img/AppStore-vn.png" alt=""></a>
+                            <a href="https://play.google.com/store/apps/details?id=com.deliverynow" target="_blank"><img src="./assets/img/PlayStore-vn.png" alt=""></a>
+                            <a href="https://appgallery.huawei.com/#/app/C102401853" target="_blank"><img src="./assets/img/Huawei-gallery-vn.png" alt=""></a>
+                        </span>
+                        
+                    </div>
+                    <div class="social-media">
+                        <img src="./assets/img/Logo-ShopeefoodVN.png" alt="">
+                        <p>© 2024 ShopeeFood</p>
+                        <span>
+                            <a href="https://www.facebook.com/shopeefoodvn" target="_blank"><p><i class="ti-facebook"></i></p></a>
+                            <a href="https://www.instagram.com/shopeefood_vn/" target="_blank"><p><i class="ti-instagram"></i></p></a>
+                        </span>
+                    </div>
+                    <div class="addr-company">
+                        <h4>Địa chỉ công ty</h4>
+                        <span>
+                            <p>Công Ty Cổ Phần Foody</p>
+                            <p>Lầu G, Tòa nhà Jabes 1,</p>
+                            <p>số 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TPHCM</p>
+                            <p>Giấy CN ĐKDN số: 0311828036</p>
+                            <p>do Sở Kế hoạch và Đầu tư TP.HCM cấp ngày 11/6/2012,</p>
+                            <p>sửa đổi lần thứ 23, ngày 10/12/2020</p>
+                            <p>Chịu trách nhiệm quản lý nội dung: Nguyễn Hồ Quảng Giang</p>
+                            <p>Điện thoại liên hệ: 028 71096879</p>
+                            <p>Email: <a href="#" target="_blank"> support@shopeefood.vn</a></p>
+                            <a href="http://online.gov.vn/Home/WebDetails/22739" target="_blank"><img src="./assets/img/gov_seals1.jpg" alt=""></a>
+                        </span>
+                    </div>
+                </div>
+                
+            </footer>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-container js-modal-container">
+            <i class="ti-close js-modal-close"></i>
+            <div class="modal-header">
+                <h3>Bạn muốn giao đến đâu?</h3>
+            </div>
+            <div class="modal-body">
+                <div class="search-local">
+                    <div class="primary-place">
+                        <i class="ti-search"></i>
+                        <input type="text" placeholder="Nhập địa chỉ giao hàng">
+                        <i class="ti-location-pin"></i>
+                    </div>
+                </div>
+                <div class="find-map">
+                    <i class="ti-pin2"></i>
+                    <p>Tìm trên bản đồ</p>
+                    <i class="ti-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal search">
+        <div class="modal-search-container">
+            <div class="modal-content">
+                <i class="ti-close js-modal-search-close"></i>
+                <div class="modal-search-form">
+                    <span>Đặt Đồ ăn, giao hàng từ 20'... có 46162 địa điểm ở Hà Nội từ 00:00 - 23:59</span>
+                    <form action="">
+                        <input type="text" class="js-input-search">
+                    </form>
+                    <div class="loading-spinner"></div>
+                    <div class="search-result">
+                        <div class="main-result">
+                            <div class="product">
+                                <a href="">
+                                    <div class="img-product">
+                                        <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu8ug1bkzo9a0@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                    </div>
+                                    <div class="infor-product">
+                                        <p class="name-product">A-Phú - Mì Trộn Indomie & Ăn Vặt - Hồng Mai</p>
+                                        <p class="addr-product">7 Ngõ 158 Hồng Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội</p>
+                                    </div>
+                                    <div class="opentime-status">
+                                        <span>Mở cửa</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="">
+                                    <div class="img-product">
+                                        <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu8ug1bkzo9a0@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                    </div>
+                                    <div class="infor-product">
+                                        <p class="name-product">A-Phú - Mì Trộn Indomie & Ăn Vặt - Hồng Mai</p>
+                                        <p class="addr-product">7 Ngõ 158 Hồng Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội</p>
+                                    </div>
+                                    <div class="opentime-status">
+                                        <span>Mở cửa</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="">
+                                    <div class="img-product">
+                                        <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu8ug1bkzo9a0@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                    </div>
+                                    <div class="infor-product">
+                                        <p class="name-product">A-Phú - Mì Trộn Indomie & Ăn Vặt - Hồng Mai</p>
+                                        <p class="addr-product">7 Ngõ 158 Hồng Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội</p>
+                                    </div>
+                                    <div class="opentime-status">
+                                        <span>Mở cửa</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="">
+                                    <div class="img-product">
+                                        <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu8ug1bkzo9a0@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                    </div>
+                                    <div class="infor-product">
+                                        <p class="name-product">A-Phú - Mì Trộn Indomie & Ăn Vặt - Hồng Mai</p>
+                                        <p class="addr-product">7 Ngõ 158 Hồng Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội</p>
+                                    </div>
+                                    <div class="opentime-status">
+                                        <span>Mở cửa</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="">
+                                    <div class="img-product">
+                                        <img src="https://down-bs-vn.img.susercontent.com/vn-11134513-7r98o-lsu8ug1bkzo9a0@resize_ss280x175!@crop_w280_h175_cT" alt="">
+                                    </div>
+                                    <div class="infor-product">
+                                        <p class="name-product">A-Phú - Mì Trộn Indomie & Ăn Vặt - Hồng Mai</p>
+                                        <p class="addr-product">7 Ngõ 158 Hồng Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội</p>
+                                    </div>
+                                    <div class="opentime-status">
+                                        <span>Mở cửa</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-search">
+                            <div class="container-footer-search">
+                                <span><i class="ti-search"></i></span>
+                                Tìm thêm kết quả cho
+                                <span class="key-word">a</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-control">
+        <div class="container-control">
+            <div class="control-link" id="back-top-page">
+                <i class="fas fa-angle-up"></i>
+                <label>Quay lại đầu trang</label>
+            </div>
+            <a target="_blank" class="control-link" href="tuyendung.html">
+                <i class="ti-car"></i>
+                <label>Đăng ký trở thành tài xế của ShopeeFood.vn ngay!</label>
+            </a>
+            <a target="_blank" class="control-link" href="https://itunes.apple.com/us/app/deliverynow/id1137866760">
+                <i class="fab fa-apple"></i>
+                <label>Tải ứng dụng iOs</label>
+            </a>
+            <a target="_blank" class="control-link" href="https://play.google.com/store/apps/details?id=com.deliverynow">
+                <i class="ti-android"></i>
+                <label>Tải ứng dụng android</label>
+            </a>
+
+        </div>
+    </div>
+    <script src="./assets/js/mainpage.js"></script>
+    <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/header.js"></script>
+    
+</body>
+</html>
